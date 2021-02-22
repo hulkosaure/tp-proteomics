@@ -243,6 +243,11 @@ pandas.read_csv('data/TCL_wt1.tsv', sep="\t",  dtype = {'Accession': str, 'Descr
 df = df.astype({'Log2 Corrected Abundance Ratio': float, '-LOG10 Adj.P-val': float } )
 ```
 
+On peut specifier la chaine de caractères correspondant au valeurs "incorrectes" produites par excel comme-ci
+
+```python
+pandas.read_csv('data/TCL_wt1.tsv', sep="\t", na_values="#VALEUR!")
+```
 ##### Selection avec contraintes
 La méthode `loc` permet de selectionner toutes les lignes/colonnes respectant certaines contraintes
 
@@ -275,6 +280,8 @@ df.loc[ df['Gene Symbol'].isin(['fadR', 'arcA'] ) ]
 
 
 ```python
+# _ est le vecteur des valeurs d'abondance
+fig, ax = plt.subplots()
 hist = ax.hist(_, bins=100) # draw histogram
 x = np.linspace(min(_), max(_), 100) # generate PDF domain points
 dx = hist[1][1] - hist[1][0] # Get single value bar height
