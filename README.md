@@ -314,7 +314,7 @@ Sont condidérées comme surabondantes les proteines remplissant ces deux critè
 
 Nous allons implementer une approche ORA (Over Representation Analysis) naive.
 
-##### 1. Retrouver les entrées du fichier TSV des protéines surabondates
+##### 1. Retrouver les entrées du fichier TSV des protéines surabondantes
 
 Quelles sont leurs identifiants UNIPROT ?
 ``` 
