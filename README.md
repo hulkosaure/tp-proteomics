@@ -306,7 +306,7 @@ ax.plot(x, norm.pdf(x, mu, sqrt(S_2))*scale) # compute theoritical PDF and draw 
 Sont condidérées comme surabondantes les proteines remplissant ces deux critères:
 
 * <img src="https://render.githubusercontent.com/render/math?math=\text{Log}_2(\text{abundance ratio})\gt\mu%2B\sigma">  
-* <img src="https://render.githubusercontent.com/render/math?math=\text{p-value}>0.001">
+* <img src="https://render.githubusercontent.com/render/math?math=\text{p-value}<0.001">
 
 ![Volcano plot + quadrant à inserez ici](histogram_log2FC.png "Title")
 
