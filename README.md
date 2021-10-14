@@ -335,8 +335,8 @@ Les `entry` du fichier `data/uniprot-proteome_UP000000625.xml` présentent des b
 </dbReference>
 ```
 
-Pour vous aider à obtenir la liste des terùes GO des protéines suraondantes, voici la fonction `getAccessionGOTerms(xml_file, uniprotID)`
-qui extrait du fichier de protéome uniprot xml fourni en 1er argument les termes GO portés par la protéine porteuse du code uniprot fourni en deuxième argument.
+Pour vous aider à obtenir la liste des termes GO des protéines surabondantes, voici la fonction `getAccessionGOTerms(xml_file, uniprotID)`
+qui extrait du fichier de protéome uniprot xml fourni en 1er argument les termes GO portés par la protéine au code uniprot fourni en deuxième argument.
 
 ```python
 from xml.etree.ElementTree import parse, dump
