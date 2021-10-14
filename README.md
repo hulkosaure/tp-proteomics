@@ -376,12 +376,15 @@ Ce dictionnaire pourrait être de la forme suivante:
                 }
   }
 ```
+
+Ainsi, vous obtiendrez pour les représentation des termes GO parmi les protéines surabondantes.
+
 #### 3. Obtention des paramètres du modèle
 
 Nous evaluerons la significativité de la présence de tous les termes GO portés par les protéines surabondantes à l'aide d'un modèle hypergéometrique.
 
 Si k protéines surabondantes porte un terme GO, la pvalue de ce terme sera équivalente à <img src="https://render.githubusercontent.com/render/math?math=P(X\ge k), X \sim H(k,K,n,N)">.
-Completer le tableau ci-dessous avec les quantités vous  semblant adéquates
+Completer le tableau ci-dessous avec les quantités vous semblant adéquates pour modeliser la pvalue de **chaque pathway [termes GO]**
 
 | Symboles | Paramètres | Quantités Biologiques |
 | --- | --- | --- |
