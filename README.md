@@ -137,7 +137,7 @@ for entry in proteins:
             break
 ```
 
-Cherchez par exemple le sous arbre de la protéine nommée `DACD_ECOLI`
+<!-- Cherchez par exemple le sous arbre de la protéine nommée `DACD_ECOLI` -->
 
 ### Statistiques de termes GO
 
