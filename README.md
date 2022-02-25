@@ -225,12 +225,12 @@ Il y a différentes manières de le faire, l'utilisation de `.iloc[slice_ligne,s
 
 ###### Acceder à toutes les lignes de la dernière colonne
 ```python
-
+df.iloc[:5,]
 ```
 
 ###### Acceder aux cinq premières lignes des colonnes 0, 2 et 3
 ```python
-
+df.iloc[:5, [0, 2, 3]]
 ```
 
 ##### Conversion de type
