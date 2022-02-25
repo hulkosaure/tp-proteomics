@@ -165,34 +165,42 @@ df = pandas.read_csv()
 
 Quel est le type de l'objet `df`?
 ```
-
+L'objet df est un DataFrame, une classe définie dans pandas pour gérer des données tabulées.
 ```
 
 ##### Descriptions d'une table de données
 Que permettent les méthodes suivantes?
 ###### df.shape
 ```
+retourne un tuple des dimensions du dataFrame.
 ```
 ###### df.head()
 ```
+retourne les 5 premières lignes du DataFrame. L'utilisateur peut rentrer le nombre de lignes voulues en argument.
 ```
 ###### df.tail()
 ```
+retourne les 5 dernières lignes du DataFrame. L'utilisateur peut rentrer le nombre de lignes voulues en argument.
 ```
 ###### df.columns
 ```
+retourne les noms des colonnes du DataFrame.
 ```
 ###### df.dtypes
 ```
+retourne le type de données contenues dans chaque colonne.
 ```
 ###### df.info
 ```
+renvoie un résumé des informations du df (utilisation de la mémoire, noms des colonnes et type des données)
 ```
 ###### df.describe()
 ```
+renvoie des statistiques descriptives d'un df (dispersion, distribution etc).
 ```
 ###### df.dropna()
 ```
+enlève les valeurs manquantes
 ```
 
 ##### Accès aux éléments d'une table de données
